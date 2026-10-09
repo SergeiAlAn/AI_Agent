@@ -1,0 +1,25 @@
+# Секреты
+.env
+.env.*
+!.env.example
+
+# Персональные данные агента: история диалогов, логи, пользовательские файлы
+agent/memory.json
+agent/memory.*.json
+agent/memory.tmp
+agent/logs/
+agent/workspace/*
+!agent/workspace/.gitkeep
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE / OS
+.vscode/
+.idea/
+.cursor/
+Thumbs.db
+.DS_Store
